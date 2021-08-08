@@ -23,14 +23,14 @@
     
         <div class="menu bgblue cream headfont columnflex">
             <ul>
-                <li class="menuitem"><div class="item"> Home</div><div class="inside bgpink"></div> </li>
-                <li class="menuitem"><div class="item"> Portfolio</div><div class="inside bgpink"></div></li>
-                <li class="menuitem"><div class="item"> Contact</div><div class="inside bgpink"></div></li>
-                <li class="menuitem"><div class="item"> Github</div><div class="inside bgpink"></div></li>
+                <li class="menuitem"><a href="#main"  class="item"> Home</a><div class="inside bgpink"></div> </li>
+                <li class="menuitem"><a href="#portfolio"  class="item">Portfolio </a><div class="inside bgpink"></div></li>
+                <li class="menuitem"><a href="#contactme"  class="item"> Contact </a><div class="inside bgpink"></div></li>
+                <li class="menuitem"><a href="https://github.com/PallaviBobde" target="_blank"  class="item"> Github </a><div class="inside bgpink"></div></li>
             </ul>
         </div>
     
-        <div class="main bgcream">
+        <div class="main bgcream" id="main">
             <div class="front">
                 <div class="hamburger pink">
                     <i class="fas fa-bars"></i>
@@ -46,11 +46,11 @@
                 <div class="scrolldown pink">
                     <i class="fas fa-angle-double-down"></i>
                 </div>
-                <div class="socialicons columnflex grey">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-instagram"></i>                  
-                    <i class="far fa-envelope"></i>  
-                    <i class="fab fa-linkedin-in"></i>                  
+                <div class="socialicons columnflex">
+                    <a href="https://github.com/PallaviBobde" target="_blank"><i class="fab fa-github  grey"></i></a>
+                    <a href="https://www.instagram.com/pallavibobde_/" target="_blank"><i class="fab fa-instagram grey"></i> </a>                 
+                    <a href="mailto:pallavibobde1@gmail.com" target="_blank"><i class="far fa-envelope grey"></i> </a>
+                    <a href="https://www.linkedin.com/in/pallavi-bobde-35ba721b2" target="_blank"><i class="fab fa-linkedin-in grey"></i> </a>              
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <div class="portfolio bgorange">
+        <div class="portfolio bgorange" id="portfolio">
             <h1 class="headfont center pink">Portfolio</h1>
             <p class="parafont center">Have a look at my latest web development projects!</p>
             <div class="rowflex parafont filters">
@@ -91,42 +91,54 @@
             </div>
             <div class="rowflex">
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                     <button class="btn bgpink white">View</button>
                 </div>
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                     <button class="btn bgpink white">View</button>
                 </div>
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                     <button class="btn bgpink white">View</button>
                 </div>
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                     <button class="btn bgpink white">View</button>
                 </div>
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
                     <button class="btn bgpink white">View</button>
                 </div>
                 <div class="project">
-                    <img src="scrsh.png" alt="">
+                    <div class="img">
+                        <img src="scrsh.png" alt="">
+                    </div>
                     <div class="scrshbtm"></div>
                     <div class="headfont">Project</div>
                     <div class="parafont">Lorem ipsum dolor sit amet consectetur, adipisicing elit</div>
@@ -135,7 +147,7 @@
             </div>
         </div>
 
-        <div class="contactme bgblue white center">
+        <div class="contactme bgblue white center" id="contactme">
             <h1 class="headfont">Let's talk</h1>
             <p class="parafont">Want to get in touch? or have a project you want to discuss?<br> Feel free to mail me at pallavibobde1@gmail.com <br>
                 or drop me a message below.

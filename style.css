@@ -112,6 +112,8 @@
 }
 .menuitem .item{
     z-index: 52;
+    color: white;
+    text-decoration: none;
 }
 .menuitem .inside{
     position: absolute;
@@ -123,10 +125,12 @@
     z-index: 51;
 }
 .menuitem:hover .inside{
-    animation: menuitem .5s 1;
+    animation: menuitem 1s 1;
 }
 .menuitem:hover{
     background-color: #BAB2B5;
+}
+.menuitem:hover .item{
     color: #ac3b61;
 }
 @keyframes menuitem {
@@ -134,7 +138,7 @@
        width: 0%; 
     }
     50%{
-       width: 100%; 
+       width: 90%; 
     }
     100%{
         width: 0%;
@@ -288,19 +292,35 @@ ul li{
     margin: 30px 10px;
     text-align: center;
     background-color:#EDC7B7;
-    border-top: 4px solid #BAB2B5;
+    border: 1px solid #ac3b61;
+    border-top: 4px solid #ac3b61;
     border-radius: 4px;
     filter:brightness(1.1);
+    box-sizing: border-box;
+    cursor: pointer;
 }
-.project img{
+.project:hover .btn{
+    background-color: #123C69;
+    
+}
+.project .img{
     width: 85%;
+    height: 134px;
     border-radius: 4px;
     border: 2px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+.project .img img{
+    width: 100%;
+}
+.project .img img:hover{
+    transform: scale(1.1);
 }
 .project .scrshbtm{
     height: 7px;
     width: 90%;
-    margin: 0 auto;
+    margin: 5px auto;
     border-radius: 4px;
     background-color: black;
     transform: translateY(-3px);
@@ -326,7 +346,7 @@ ul li{
     padding: 5px 10px;
     border-radius: 4px;
 }
-.fa-envelope{
+form button i{
     animation: icon 1s infinite;
     margin-right: 10px;
 }
