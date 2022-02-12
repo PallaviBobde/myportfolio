@@ -167,7 +167,7 @@ a{
     flex-wrap: wrap;
 }
 .hamburger{
-    position: fixed;
+    position: absolute;
     right: 0;
     margin: 20px;
     font-size: 30px;
