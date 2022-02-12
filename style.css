@@ -88,6 +88,10 @@
     background-color: #ac3b61;
     animation: menuitem .5s 1 linear;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .absolute{
     position: absolute;
 }
@@ -163,7 +167,7 @@
     flex-wrap: wrap;
 }
 .hamburger{
-    position: absolute;
+    position: fixed;
     right: 0;
     margin: 20px;
     font-size: 30px;
@@ -299,7 +303,7 @@ ul li{
     box-sizing: border-box;
     cursor: pointer;
 }
-.project:hover .btn{
+.btn:hover{
     background-color: #123C69;
     
 }
@@ -351,8 +355,17 @@ form button i{
     margin-right: 10px;
 }
 
+.socialicons2 a i{
+    margin: 20px;
+    font-size: 40px;
+    color: #EDC7B7;
+}
+.socialicons2 a i:hover{
+    text-shadow: 2px 2px #ac3b61;
+}
 /*  */
 .footer{
     padding: 10px;
     font-size: 14px;
+    border-top: 1px solid #BAB2B5;
 }

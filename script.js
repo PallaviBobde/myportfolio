@@ -11,3 +11,14 @@ cross.onclick = () =>{
     cross.classList.add('hide');
     hamburger.classList.remove('hide');
 }
+
+let menuitems = document.querySelectorAll('.menu .item');
+menuitems.forEach(itemact);
+
+function itemact(item){
+    item.onclick=()=>{
+        menu.style.left = '100vw';
+        cross.classList.add('hide');
+        hamburger.classList.remove('hide');
+    }
+}
