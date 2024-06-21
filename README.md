@@ -23,7 +23,7 @@ This portfolio showcases the projects and skills of Pallavi Bobde, a passionate 
 ## 📞 URLs
 
 - **Repo**: [https://github.com/PallaviBobde/portfolio](https://github.com/PallaviBobde/myportfolio)
-- **View**: [https://pallavibobde.github.io/portfolio/](https://github.com/PallaviBobde/myportfolio)
+- **View**: [https://pallavibobde.github.io/portfolio/](https://pallavibobde.github.io/myportfolio/)
 
 ## 📞 Let's get in touch
 
